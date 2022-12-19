@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter-container {
+  min-height: 70vh;
+  min-width: 100vw;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.increment-btn {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 30px;
+  font-weight: 700;
+  width: 120px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 9px;
+  border: solid 0;
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #0f172a;
+}
+.count-type {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #334155;
+  font-weight: 500;
+}
+.note {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #1e293b;
+}
+@media (min-width: 768px) {
+  .counter-container {
+    min-height: 50vh;
+    min-width: 50vw;
+  }
+}
